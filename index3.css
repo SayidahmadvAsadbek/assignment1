@@ -1,0 +1,143 @@
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+header { 
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+header div{ 
+    margin-left: 5%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 20px;
+}
+#ola{
+    margin-top: 5%;
+    color: white;
+    font-size: 35px;
+    margin-left: 40%;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+#home {
+    background-image: url('concert-background.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    display: grid;
+    row-gap: 10px;
+}
+
+.cta-button { 
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff3366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+#home a{ display: flex;
+    width: 150px;
+    justify-content: center;
+   margin-left: 45%;
+
+}
+
+#tickets { 
+   row-gap: 25px;
+   gap: 30px;
+    justify-content: center;
+    justify-items: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+}
+
+.ticket-card {
+    display: grid;
+    row-gap: 7px;
+
+    
+
+
+  
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e2dada;
+    width: 300px;
+}
+
+.ticket-card img {
+  
+    width: 270px;
+    height: 300px;
+    
+
+ 
+   
+  
+
+    border-radius: 5px;
+}
+img{
+  
+    width: 250px;
+}
+#about, #contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+footer{ width: 100%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(36, 35, 35);
+    bottom: 0%;
+    position: fixed;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 105, 76);
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,118 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+header { 
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+header div{ 
+    margin-left: 5%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+
+
+}
+
+#ola{
+    margin-top: 5%;
+    color: white;
+    font-size: 35px;
+    margin-left: 40%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+#hero {
+    background-image: url('hero-image-vinyl.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta-button {
+    display: inline-block;
+   
+ 
+   
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 105, 76);
+    border-radius: 5px;
+    border: none;
+}
+
+#featured-products {
+
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+   
+}
+
+.vinyl-card {
+     display: grid; 
+     row-gap: 10px; 
+    margin: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #f8f8f8;
+    width: 300px;
+ 
+    
+}
+
+.vinyl-card img {
+    width:100%;
+    height: 350px; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+#about, #contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+footer{ width: 100%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(36, 35, 35);
+    bottom: 0%;
+    position: fixed;
+}
